@@ -47,7 +47,7 @@ endif
 
 export CGO_CFLAGS = $(CFLAGS)
 # DEBUG flags
-# export CGO_CFLAGS = -g -O0 -I$(RTE_SDK)/$(RTE_TARGET)/include
+export CGO_CFLAGS = -g -O0 -I$(RTE_SDK)/$(RTE_TARGET)/include
 
 export CGO_LDFLAGS =				\
 	-L$(RTE_SDK)/$(RTE_TARGET)/lib		\
